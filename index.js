@@ -44,7 +44,8 @@ function updateCity(event) {
           <div class="time">${cityTime} <small>${moment().format(
     "A"
   )}</small></div>
-        </div>`;
+        </div>
+        <a href="/">Back</a>`;
 }
 
 setInterval(updateTime, 1000);
