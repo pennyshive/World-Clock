@@ -1,11 +1,16 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/877/original/333768.jpg?1766953296");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: sans-serif;
 }
 .container {
   border-radius: 10px;
-  box-shadow: 0 7px 29px 0px rgba(100, 100, 111, 0.2);
-  background-color: white;
+  box-shadow: 0 7px 29px 0px rgba(255, 253, 253, 0.8);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/876/original/ethereal-whispers-smoke-dancing-white-canvas-white-png-transparent-background_94628-64218.jpg?1766952695");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   max-width: 600px;
   margin: 60px auto;
   padding: 60px;
@@ -26,9 +31,7 @@ h2 {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   padding: 30px 0;
 }
-.city:last-child {
-  border: none;
-}
+
 .time {
   font-size: 48px;
   font-weight: bold;
@@ -50,5 +53,9 @@ select {
 }
 footer {
   text-align: center;
-  color: rgba(0, 0, 0, 0.6);
+
+  font-size: 12px;
+}
+a {
+  color: red;
 }

@@ -24,6 +24,18 @@ function updateTime() {
       "A"
     )}</small>`;
   }
+  let lisbonElement = document.querySelector("#lisbon");
+  if (lisbonElement) {
+    let lisbonDateElement = lisbonElement.querySelector(".date");
+    let lisbonTimeElement = lisbonElement.querySelector(".time");
+    lisbonDateElement.innerHTML = moment()
+      .tz("Europe/Lisbon")
+      .format("MMMM Do YYYY");
+    let lisbonTime = moment().tz("Europe/Lisbon").format("h:mm:ss");
+    lisbonTimeElement.innerHTML = `${lisbonTime} <small>${moment().format(
+      "A"
+    )}</small>`;
+  }
 }
 
 function updateCity(event) {
